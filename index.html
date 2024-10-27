@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Neurasthenia - Banda de DSBM</title>
+</head>
+<body>
+    <div class="sidebar">
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <div class="divider"></div>
+        <ul>
+            <li onclick="showSection('home')">Home<br></li>
+            <li onclick="showSection('sobre')">Sobre Nós<br></li>
+            <li onclick="showSection('fotos')">Fotos<br></li>
+            <li onclick="showSection('contato')">Contato<br></li>
+            <li onclick="showSection('lancamentos')">Lançamentos<br></li>
+        </ul>
+    </div>
+    <main id="main-content">
+        <section id="home" class="active section">
+            <div class="intro">
+                <h1>Neurasthenia...</h1>
+                <p>Uma banda brasileira de DSBM que emerge do underground, explorando a angústia e a profundidade da experiência humana.</p>
+                <div class="button-container">
+                    <button onclick="showSection('sobre')" class="home-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm0 15a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/>
+                            <path d="m8.93 6.588-.864 5.077h-1.15l.865-5.077h1.15zm-.93-1.588a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                        </svg>
+                        Sobre Nós
+                    </button>
+                    <button onclick="showSection('contato')" class="home-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2 0v10h12V4H2z"/>
+                            <path d="M2 4l6 4 6-4H2z"/>
+                        </svg>
+                        Contato
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="sobre" class="hidden section">
+            <img src="images/formação.png" alt="formação" class="sobre-img">
+            <h2>Sobre Nós</h2>
+            <p><strong>Neurasthenia</strong> é uma banda formada por dois adolescentes que buscam dar voz aos gritos silenciosos de uma geração perdida. <strong>Lemlestelse Satanisk</strong>, o fundador que se desdobra em baixista, baterista e vocalista, e <strong>Lord Maçone</strong>, o guitarrista que traz à vida os riffs da dor.</p>
+            <p>A banda nasceu das sombras da mente de Lemlestelse, onde a música se tornou uma forma de expurgar as feridas profundas que corroem a alma. Suas letras são confissões cruas, um espelho da luta interna contra a tristeza, a mutilação e o desejo de escapar de uma existência sufocante. Cada acorde é uma lâmina, cortando a superficialidade da vida, revelando o abismo que muitos temem enfrentar.</p>
+            <p>Com a chegada de Lord Maçone, as composições se tornaram ainda mais sombrias, explorando temas de desespero e suicídio. A <strong>Neurasthenia</strong> não apenas expressa a dor, mas também se torna um reflexo das almas que se sentem sem esperança, que caminham à beira da morte. Cada canção é um convite para aqueles que se sentem isolados, uma lembrança de que não estão sozinhos em sua angústia.</p>
+            <p>Através da música, buscamos não apenas confrontar a escuridão, mas também criar um espaço seguro para aqueles que carregam cicatrizes invisíveis. <strong>Neurasthenia</strong> é uma jornada pela dor e pela busca de significado em meio ao desespero.</p>
+        </section>
+        <section id="fotos" class="hidden section">
+            <div class="gallery">
+                <div class="foto-item">
+                    <img src="images/lemlestelse.jpeg" alt="Lemlestelse Satanisk" class="foto">
+                    <h3>Lemlestelse Satanisk</h3>
+                    <p>Lemlestelse, o fundador do <strong>Neurasthenia</strong>, onde atuo como baterista, baixista, vocalista e letrista. Desde a infância, a música se tornou meu abrigo, uma maneira de expor as sombras que assombram minha mente. Minha jornada no DSBM começou como um grito silencioso, uma forma de transformar minhas feridas em letras que refletem a brutalidade da vida.</p>
+                    <p>Cresci em um ambiente onde a dor era uma constante, e transformo cada lágrima em arte, criando canções que ecoam a batalha de almas que, como a minha, enfrentam seus demônios. Cada música é um desabafo sincero, um convite à catharsis, onde busco não apenas aliviar minha própria angústia, mas também oferecer consolo a quem se sente perdido em seu sofrimento.</p>
+                    <p>Minhas influências vão desde o metal mais agressivo até aqueles que capturam a essência do DSBM. Cada riff que compõe minha música é uma expressão crua de dor e melancolia, refletindo o peso de um coração que se recusa a esquecer a solidão. Acredito que, ao expor minhas cicatrizes, posso iluminar o caminho para aqueles que lutam em silêncio, mostrando que não estão sozinhos nessa jornada sombria.</p>
+                    <p>Ao criar, desejo transmitir não apenas a catharsis, mas também o que muitos têm medo de enfrentar: a mutilação, a escuridão que nos cerca e o desejo incessante de escapar desse tormento. Minhas notas ecoam como gritos de desespero, cada acorde, uma ferida aberta, cada solo, uma lágrima que se perde na imensidão da dor.</p>
+                    <p>Embora defenda a importância da saúde mental, minha música reflete a crueza da luta diária. Não sou apenas um artista; sou um viajante nas profundezas da dor, buscando, através da arte, conectar corações atormentados e lembrar que, mesmo nas noites mais escuras, ainda há espaço para a esperança.</p>
+                </div>
+                <div class="foto-item">
+                    <img src="images/lordmacone.jpeg" alt="Lord Maçone" class="foto">
+                    <h3>Lord Maçone</h3>
+                    <p>Maçone, o guitarrista do <strong>Neurasthenia</strong>. Na escuridão da minha mente, encontro consolo na música, onde expresso a profunda tristeza e a melancolia que me consomem. Minha arte é um reflexo de uma alma atormentada, e meus riffs, embora simples, carregam o peso de um coração vazio e despedaçado.</p>
+                    <p>Eu trago o ódio que guardo da humanidade e o transformo em angústia, mergulhando nas sombras que me cercam. Desejo revelar a toda a humanidade o ódio e a tristeza que carrego em meu interior, sem proferir uma única palavra. Cada nota que toco é um grito silencioso de desespero, uma confissão das lutas internas que me assombram. As notas ressoam como gritos de socorro, os acordes como cortes nos pulsos, e os solos como lágrimas que se derramam no chão.</p>
+                    <p>Cada riff meu é o brado de dor de uma alma triste, que vagueia por um lugar vazio, pacato e monótono, em busca de alguém que possa salvá-la desse tormento eterno. Influenciado pela escuridão que permeia minha vida, minhas composições falam sobre o abismo que muitos temem encarar. Acredito que, ao compartilhar minha dor, posso tocar aqueles que se sentem igualmente perdidos, como se a vida não tivesse mais sentido.</p>
+                    <p>No entanto, essa não é apenas uma luta pessoal; é uma batalha contra o silêncio que cerca a saúde mental. Busco abrir diálogos sobre o sofrimento, mostrando que a dor não precisa ser enfrentada sozinha. Minha música é um grito de resistência em um mundo que muitas vezes se esquece da dor dos outros, e é através da <strong>Neurasthenia</strong> que espero criar um espaço para que todos possam confrontar suas próprias sombras.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="hidden section">
+            <h2>Contato</h2>
+            <p>Envie um e-mail para nós:</p>
+            <a href="mailto:contato@neurastheniaband.com?subject=Contato&body=Escreva sua mensagem aqui." class="contact-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2 0v10h12V4H2z"/>
+                    <path d="M2 4l6 4 6-4H2z"/>
+                </svg>
+                Enviar E-mail
+            </a>
+        </section>
+        <section id="lancamentos" class="hidden section">
+            <h2>Lançamentos</h2>
+            <div class="lancamento">
+                <div class="musica-bar">
+                    <img src="images/whenvoicesgetloud.jpg" alt="Nefarious love, Broken Truths" class="capa-musica">
+                    <div class="info-lancamento">
+                        <h3>Nefarious love, Broken Truths</h3>
+                        <p>EP</p>
+                    </div>
+                    <a href="https://open.spotify.com/intl-pt/album/05gchimGVcQPJXl4XaOP0j?si=gGGfTWEeQ0yqRzWcpvHzeA" class="play-button" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="lancamento">
+                <div class="musica-bar">
+                    <img src="images/whenvoicesgetloud.jpg" alt="When Voices Get Loud" class="capa-musica">
+                    <div class="info-lancamento">
+                        <h3>When Voices Get Loud</h3>
+                        <p>Single</p>
+                    </div>
+                    <a href="https://open.spotify.com/intl-pt/album/53AoATEY2Lb7BM4shXE9CJ?si=Lal5T8phQp28bsBTPjzNRg" class="play-button" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="lancamento">
+                <div class="musica-bar">
+                    <img src="images/thesupremegentleman.jpg" alt="The Supreme Gentleman" class="capa-musica">
+                    <div class="info-lancamento">
+                        <h3>The Supreme Gentleman</h3>
+                        <p>Single</p>
+                    </div>
+                    <a href="https://open.spotify.com/intl-pt/track/69AnLyW6J60iSlXF7UHId2?si=ad82df5ad21c45b7" class="play-button" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
