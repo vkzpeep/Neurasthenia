@@ -10,15 +10,17 @@ function showSection(sectionId) {
     activeSection.classList.add('active'); // Adiciona a classe ativa
 }
 
-
 // Exibe a seção Home por padrão
 showSection('home');
 
-// Lidar com envio de formulário
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    document.getElementById('form-message').textContent = "Mensagem enviada com sucesso!";
-    document.getElementById('contact-form').reset();
+// Bloqueia o botão direito do mouse
+document.addEventListener('contextmenu', function(event) {
+    event.preventDefault(); // Previne a ação padrão do menu de contexto
 });
 
-
+// Bloqueia Ctrl + U
+document.addEventListener('keydown', function(event) {
+    if (event.ctrlKey && event.key === 'u') {
+        event.preventDefault(); // Previne a ação padrão de abrir o código fonte
+    }
+});
